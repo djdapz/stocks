@@ -1,5 +1,5 @@
 {
-  "name": "stocks",
+  "name": "stocks-djd",
   "version": "1.0.0",
   "description": "A simple command line stock ticker",
   "repository": "git@github.com:djdapz/stocks.git",
