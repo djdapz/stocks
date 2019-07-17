@@ -1,8 +1,8 @@
 {
   "name": "stocks",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple command line stock ticker",
+  "repository": "git@github.com:djdapz/stocks.git",
   "scripts": {
     "test": "jest",
     "build": "rm stocks || touch stocks && echo \"#!/usr/bin/env node\n\n\" > stocks && chmod +x stocks && npx rollup --config rollup.config.js --format cjs >> stocks"
@@ -27,5 +27,8 @@
     "typescript": "^3.5.3",
     "rollup-plugin-terser": "^5.1.1",
     "rollup-plugin-uglify": "^6.0.2"
+  },
+  "bin": {
+    "stocks": "stocks"
   }
 }
